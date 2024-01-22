@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/home/home",
+            "style" : {}
+            
+        }
+        ,{
+            "path" : "pages/canteen-guide/canteen-guide",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "食堂向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/canteen-booth-list/canteen-booth-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "档口列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about-us/about-us",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/canteen-booth-detail/canteen-booth-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "食堂详情",
+                "enablePullDownRefresh": false
+					
+            }
+            
+        }
+        ,{
+            "path" : "pages/caipu/caipu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "今日菜谱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "反馈建议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "SUSTEEN",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {}
+}
